@@ -1,3 +1,4 @@
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -18,8 +19,14 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
-
+  
     autoplay: {
-        delay:1000,
+        delay: 2000,
     },
+  
+    effect: 'cards',
+    cardsEffect: {
+      // ...
+    },
+
 })

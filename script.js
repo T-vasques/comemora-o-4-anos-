@@ -19,9 +19,7 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
 
-    /*
     autoplay: {
         delay:1000,
     },
-    */
 })

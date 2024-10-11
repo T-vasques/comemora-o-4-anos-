@@ -26,7 +26,10 @@ const swiper = new Swiper('.swiper', {
   
     effect: 'cards',
     cardsEffect: {
-      // ...
+      perSlideOffset: 8,
+      perSlideRotate: 5,
+      rotate: true,
+      slideShadows: true,
     },
 
 })
